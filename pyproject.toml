@@ -1,0 +1,19 @@
+[project]
+name = "encuentro-2026-bahia"
+version = "0.1.0"
+description = "Sample harmonic oscilator simulation"
+authors = [
+    { name = "Sebastián Ferraro" }
+]
+license = { text = "CC BY-NC 4.0" }
+urls = { "License" = "https://creativecommons.org/licenses/by-nc/4.0/" }
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jax>=0.10.0",
+    "matplotlib>=3.10.9",
+    "pytest>=9.0.3",
+    "pytest-regressions>=2.10.0",
+    "scipy>=1.17.1",
+    "sympy>=1.14.0",
+]
