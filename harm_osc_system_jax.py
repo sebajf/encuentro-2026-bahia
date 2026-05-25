@@ -25,7 +25,7 @@ def DEL_equations_harmonic_osc(q0, q1, q2, h, phys_params):
 
 @jax.jit
 def f_DEL_q2_first(q2, q0, q1, h, phys_params):
-    """ "
+    """
     This function is used to solve for q2 in the DEL equations.
     It is structured to match the expected input for `scipy.optimize.root`.
     """
