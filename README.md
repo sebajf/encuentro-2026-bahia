@@ -6,8 +6,10 @@ It shows how to gradually improve a basic simulation.
 
 ### How to run this code
 
-You were supposed to run `uv sync` right after cloning the repo on your computer. If you haven't already, do so.
+Run `uv sync` right after cloning the repo on your computer. Then try running the following commands.
 
-Try running `uv run harmonic_oscillator.py` and open the generated png file.
-
-Note: if you are new to git and don't know how to get back to the latest version of the code, run `git checkout main`.
+```
+uv run main.py
+uv run parallel_example.py
+uv run pytest
+```
